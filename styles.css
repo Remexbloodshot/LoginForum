@@ -1,0 +1,25 @@
+@import url();
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.parent-link{
+    font-size: 1rem;
+
+}
+
+.parent-link, .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
